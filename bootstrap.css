@@ -1,0 +1,70 @@
+
+*{
+    font-family: "DM Sans", sans-serif;
+}
+body{
+    background-color: #E9EDF2 !important;
+}
+/* .card{
+    width: 50%;
+} */
+label{
+    color: #2B3674;
+}
+h2{
+    color:#2B3674 !important;
+}
+.upload{
+    padding: 10px;
+    border: dashed #B2BAD0;
+    border-radius: 13px;
+}
+i{
+    font-size: 30px;
+}
+.box_box{
+    width: 92px;
+    border-radius:15px ;
+    height: 50px;
+    text-align: center;
+    border: 1px solid#B6BBC7;
+}
+.form-label::after{
+    content: '*';
+    color: red;
+}
+.form-check-label{
+    font-size: 14px;
+}
+input#exampleColorInput {
+    width: auto;
+    border-radius: 11px;
+}
+input{
+    border-radius: 12px;
+}
+.form-control:focus , .form-select:focus , .form-check-input:focus{
+    box-shadow: none !important;
+    border-color: #4318FF !important;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance : none;
+    background : #4318FF !important;
+    box-shadow: none !important
+  }
+.form-check-input:checked{
+    background-color: #4318FF !important;
+}
+.btn_cancel{
+   background-color: #FAF9FF !important;
+   color: #2B3674 !important;
+}
+.btn-primary{
+    background-color: #4318FF !important;
+}
+.footer{
+    width: 102%;
+}
+.form-control , .form-select{
+    margin-bottom: 10px;
+}

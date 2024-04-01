@@ -1,0 +1,11 @@
+@media screen and (max-width:1200px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+        align-items: center;
+    }    
+    .card{
+        width: 100% !important;
+    }
+}
