@@ -14,10 +14,14 @@ label{
 h2{
     color:#2B3674 !important;
 }
+.card , .footer{
+    border-radius: 20px !important;
+}
 .upload{
-    padding: 10px;
-    border: dashed #B2BAD0;
+    padding: 10px 0px 0px 0px;
+    border:dashed #B2BAD0;
     border-radius: 13px;
+    background-color: #FAFCFE;
 }
 i{
     font-size: 30px;
@@ -67,4 +71,5 @@ input[type=range]::-webkit-slider-thumb {
 }
 .form-control , .form-select{
     margin-bottom: 10px;
+    border-radius: 12px !important;
 }
