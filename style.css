@@ -63,10 +63,13 @@ input[type=range]::-webkit-slider-thumb {
    background-color: #FAF9FF !important;
    color: #2B3674 !important;
    border: 1px solid transparent !important;
-   
+
 }
 .btn-primary{
     background-color: #4318FF !important;
+}
+.btn{
+    gap: 5px;
 }
 .footer{
     width: 102%;
