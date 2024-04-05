@@ -93,13 +93,8 @@ input[type=range]::-webkit-slider-thumb {
 .btn{
     border-radius: 13px !important;
 }
-
-
-
 .container{
     padding: 0px !important;
-    /* margin: 0px !important; */
-    /* width: fit-content !important; */
 }
 .card{
     margin-top: 16px !important;
