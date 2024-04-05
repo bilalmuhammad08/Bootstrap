@@ -26,20 +26,20 @@
     <section class="first_page">
         <div class="container d-flex gap-4">
             <div class="card p-4 mt-3 col-lg-6">
-                <h2>Basic Details</h2>
+                <div class="card_header">
+                    <h2>Basic Details</h2>
+                    <label class="upload d-flex mb-2 ">
+                        <div class="mx-auto p-2 text-center" style="width: 250px;">
+                            <i class="fa-solid fa-upload"></i>
+                            <p class="fw-bolder m-0"><span>Upload Image</span></p>
+                            <p class="fw-light color1">PNG, JPG files are allowed</p>
+                        </div>
+                    </label>
+                </div>
 
-                <label class="upload mb-2 ">
-                    <div class="mx-auto p-2 text-center" style="width: 200px;">
-                        <i class="fa-solid fa-upload"></i>
-                        <p class="fw-bolder m-0"><span>Upload Image</span></p>
-                        <p class="fw-light color1">PNG, JPG files are allowed</p>
-                    </div>
-                </label>
-
-
-                <div class="row mb-3">
+                <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <label for="inputsalutation" class="form-label">Salutation</label>
+                        <label for="inputsalutation" class="form-label mt-2">Salutation</label>
                         <select class="form-select" aria-label="Default select example d-flex">
                             <option selected>select</option>
                             <option value="1">Mr</option>
@@ -49,36 +49,36 @@
 
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <label for="inputfirstname" class="form-label">First name</label>
+                        <label for="inputfirstname" class="form-label mt-2">First name</label>
                         <input type="text" class="form-control" placeholder="John" aria-label="First name">
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <label for="inputlastname" class="form-label">Last name</label>
+                        <label for="inputlastname" class="form-label mt-2">Last name</label>
                         <input type="text" class="form-control" placeholder="Doe" aria-label="Last name">
                     </div>
 
 
                 </div>
-                <div class="row mb-3">
+                <div class="row">
                     <div class="col-lg-6">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <label for="exampleFormControlInput1" class="form-label mt-2">Email address</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
                             placeholder="mail@simmmple.com">
                     </div>
                     <div class="col-lg-6">
-                        <label for="inputnumbers" class="form-label">Mobile number</label>
+                        <label for="inputnumbers" class="form-label mt-2">Mobile number</label>
                         <input type="number" class="form-control" placeholder="Enter your number">
                     </div>
                 </div>
 
-                <div class="row mb-3">
+                <div class="row">
                     <div class="col-lg-6">
-                        <label for="inputdate" class="form-label">Date of Birth</label>
+                        <label for="inputdate" class="form-label mt-2">Date of Birth</label>
                         <input type="date" class="form-control">
                     </div>
 
                     <div class="col-lg-6">
-                        <label for="inputgender" class="form-label">Gender</label>
+                        <label for="inputgender" class="form-label mt-2">Gender</label>
                         <div class="d-flex gap-4">
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="flexRadioDefault"
@@ -98,13 +98,13 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <label for="inputAddress" class="form-label">Address</label>
+                    <label for="inputAddress" class="form-label mt-2">Address</label>
                     <input type="text" class="form-control mb-2" id="inputAddress" placeholder="enter your address">
                 </div>
 
-                <div class="row mb-3">
+                <div class="row">
                     <div class="col-lg-6">
-                        <label for="inputState" class="form-label">Country</label>
+                        <label for="inputState" class="form-label mt-2">Country</label>
                         <select id="inputState" class="form-select">
                             <option selected>Select country</option>
                             <option>India</option>
@@ -114,7 +114,7 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <label for="inputState" class="form-label">State</label>
+                        <label for="inputState" class="form-label mt-2">State</label>
                         <select id="inputState" class="form-select">
                             <option selected>Select state</option>
                             <option>kerala</option>
@@ -124,15 +124,15 @@
                         </select>
                     </div>
                 </div>
-                <div class="row mb-3">
+                <div class="row">
                     <div class="col-lg-6">
-                        <label for="inputCity" class="form-label">City
+                        <label for="inputCity" class="form-label mt-2">City
 
                         </label>
                         <input type="text" class="form-control" id="inputCity" placeholder="enter city">
                     </div>
                     <div class="col-lg-6">
-                        <label for="inputZip" class="form-label">Pin/Zip</label>
+                        <label for="inputZip" class="form-label mt-2">Pin/Zip</label>
                         <input type="text" class="form-control" id="inputZip" placeholder="enter zip/pin">
                     </div>
                 </div>
@@ -146,19 +146,19 @@
                         erat volutpat. Donec faucibus mauris vel nibh sodales feugiat. Donec suscipit felis vitae orci
                         porttitor congue.</p>
                 </div>
-                <div class="row pt-3 mb-3">
+                <div class="row pt-3">
                     <div class="col-lg-3">
                         <label for="customRange1" class="form-label">Height</label>
                         <input type="range" class="form-range" id="customRange1">
                     </div>
-                    <div class="col-lg-3 pt-3">
+                    <div class="col-lg-3 p-3">
                         <input type="text" class="form-control change" value="160cm">
                     </div>
                     <div class="col-lg-3">
                         <label for="customRange1" class="form-label">Weight</label>
                         <input type="range" class="form-range" id="customRange1">
                     </div>
-                    <div class="col-lg-3 pt-3">
+                    <div class="col-lg-3 p-3">
                         <input type="text" class="form-control change" value="68kg">
                     </div>
                 </div>
@@ -172,7 +172,7 @@
 
                     <div class="row col-lg-8">
                         <label for="inputtemplate" class="form-label">Choose template</label>
-                        <div class=" row ">
+                        <div class=" row padding">
                             <div class="template form-check form-check col-lg-4">
                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                                 <label class="form-check-label" for="inlineCheckbox1">Template1</label>
@@ -209,7 +209,7 @@
 
 
         <div class="container">
-            <div class="footer bg-white p-3 d-flex justify-content-end mb-4">
+            <div class="card_footer bg-white p-3 d-flex justify-content-end mb-4">
                 <button class="btn .bg-info btn_cancel me-md-2" type="button">Cancel</button>
                 <button class="btn btn-primary" type="button">Save Changes</button>
             </div>

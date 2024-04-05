@@ -11,7 +11,7 @@ label{
 h2{
     color:#2B3674 !important;
 }
-.card , .footer{
+.card , .card_footer{
     border-radius: 20px !important;
 }
 .upload{
@@ -47,13 +47,11 @@ input{
 .form-control:focus , .form-select:focus , .form-check-input:focus{
     box-shadow: none !important;
     border-color: #4318FF !important;
-    /* border: none !important; */
 }
 input[type=range]::-webkit-slider-thumb {
     -webkit-appearance : none;
     background : #4318FF !important;
     box-shadow: none !important;
-    /* border: none !important; */
   }
   input[type=radio]:checked , input[type=checkbox]:checked{
     border: none;
@@ -74,7 +72,7 @@ input[type=range]::-webkit-slider-thumb {
 .btn{
     gap: 5px;
 }
-.footer{
+.card_footer{
     width: 102%;
 }
 .form-control , .form-select{
@@ -91,7 +89,8 @@ input[type=range]::-webkit-slider-thumb {
     font-weight: 700;
 }
 .btn{
-    border-radius: 13px !important;
+    border-radius: 19px !important;
+    padding: 13px 27px !important;
 }
 .container{
     padding: 0px !important;
@@ -109,4 +108,7 @@ input[type=range]::-webkit-slider-thumb {
 .change{
     width: 77px !important;
     height: 49px !important;
+}
+.padding{
+    padding-left: 30px !important;
 }
